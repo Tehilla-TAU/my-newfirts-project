@@ -1,3 +1,7 @@
+# קובץ זה מבצע ניתוח תיאורי לנתוני Stroop:
+# חישוב ממוצעים, סטיות תקן ואחוזי ניסיונות.
+# נכתב על ידי:תהילה מן]
+# תאריך: 28/12/2024
 
 load("raw_data.RData")
 cat("Number of unique subjects:", length(unique(df$subject)), "\n")
